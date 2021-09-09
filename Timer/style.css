@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(./Images/holi.jpg);
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    min-height: 100vh;
+}
+h1{
+    font-weight: normal;
+    font-size: 3em;
+    margin-top: -30rem;
+    flex-wrap: wrap;
+}
+.count-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.b-text{
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.count-el{
+    display: grid;
+    margin-left: 1em;
+}
+.count-el span{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
